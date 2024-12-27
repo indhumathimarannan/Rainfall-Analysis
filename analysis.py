@@ -11,7 +11,7 @@ fig_annual.add_trace(go.Scatter(
     mode='lines',
     name='Annual Rainfall',
     line=dict(color='blue', width=2),
-    opacity=0.7
+    opacity=0.8
 ))
 fig_annual.add_trace(go.Scatter(
     x=annual_rainfall['YEAR'],
