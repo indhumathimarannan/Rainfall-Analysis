@@ -47,7 +47,7 @@ fig_annual_anomalies.update_layout(
     title='Annual Rainfall Anomalies in India (1901-2015)',
     xaxis_title='Year',
     yaxis_title='Rainfall (mm)',
-    template='plotly_white',
+    template='plotly_grey',
     legend=dict(title="Legend"),
     height=500
 )
